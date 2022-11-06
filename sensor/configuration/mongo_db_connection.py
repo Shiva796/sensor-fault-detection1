@@ -4,7 +4,7 @@ import sys
 import certifi
 from sensor.constant.database import DATABASE_NAME
 from  sensor.exception import SensorException
-
+from sensor.constant.env_variable import MONGODB_URL_KEY
 
 ca = certifi.where()
 
