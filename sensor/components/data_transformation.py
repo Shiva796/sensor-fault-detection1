@@ -36,7 +36,7 @@ class DataTransformation:
             return pd.read_csv(file_path)
         except Exception as e:
             raise SensorException(e, sys)
-     @classmethod
+    @classmethod
     def get_data_transformer_object(cls)->Pipeline:
         try:
             robust_scaler = RobustScaler()
