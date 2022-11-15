@@ -9,9 +9,7 @@ import shutil
 
 class ModelPusher:
 
-    def __init__(self,
-                model_pusher_config:ModelPusherConfig,
-                model_eval_artifact:ModelEvaluationArtifact):
+    def __init__(self,model_pusher_config:ModelPusherConfig,model_eval_artifact:ModelEvaluationArtifact):
 
         try:
             self.model_pusher_config = model_pusher_config
